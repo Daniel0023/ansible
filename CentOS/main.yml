@@ -1,6 +1,6 @@
 ---
 -hosts: all
   roles:
-   -yumupdate
+   -update
   become: yes
   become_method: sudo
