@@ -1,1 +1,4 @@
--include: update
+- name: install updates
+    yum: 
+      update_cache: yes
+      upgrade: yes
