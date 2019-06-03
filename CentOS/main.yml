@@ -1,6 +1,6 @@
 ---
--hosts: all
- roles:
-   - update
+- hosts: all
+  roles:
+    - update
   become: yes
   become_method: sudo
