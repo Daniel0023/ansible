@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+	-pacmanupdate
+  become: yes
+  become_method: sudo
