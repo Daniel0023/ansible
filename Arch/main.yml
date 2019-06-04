@@ -1,6 +1,6 @@
 ---
 - hosts: webservers
   roles:
-    - pacman
+    - Pacman
   become: yes
   become_method: sudo
