@@ -2,5 +2,6 @@
 - hosts: all
   roles:
     - Pacman
+    - User
   become: yes
   become_method: sudo
